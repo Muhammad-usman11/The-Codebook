@@ -6,8 +6,9 @@ import { DashboardCard } from "./components/DashboardCard";
 import { DashboardEmpty } from "./components/DashboardEmpty";
 
 export const DashboardPage = () => {
-  const [orders, setOrders] = useState([]);
   useTitle("Dashboard");
+  const [orders, setOrders] = useState([]);
+  
 
   useEffect(() => {
     async function fetchOrders(){
