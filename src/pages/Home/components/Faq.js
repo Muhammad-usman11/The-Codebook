@@ -1,4 +1,7 @@
+ 
 import { Accordion } from "./Accordion";
+
+
 
 export const Faq = () => {
     const faqs = [
